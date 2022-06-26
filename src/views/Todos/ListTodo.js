@@ -46,7 +46,6 @@ class ListTodo extends React.Component {
 
             // Trả ra vị trí index của phần tử 
             let indexObj = listTodoCopy.findIndex(item => item.id === todo.id)
-            console.log(indexObj)
 
             listTodoCopy[indexObj].title = editTodo.title
 

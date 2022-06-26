@@ -1,0 +1,22 @@
+.list-user-container{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
+    .information-user{
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        border: 1px solid #ccc;
+        padding: 12px;
+
+
+
+        h4{
+            margin: 0 20px;
+        }
+        img{
+            width: 60px;
+        }
+    }
+}

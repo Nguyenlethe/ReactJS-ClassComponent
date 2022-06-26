@@ -59,7 +59,7 @@ class MyComponent extends React.Component {
 
     // Khi được updata ví dụ như xóa phần tử ,thì sẽ lọt vào đây, khi ta cần xl so sánh dl cữ và mới
     componentDidUpdate = (prevProps, prevState) => {
-        console.log( prevState, this.state)
+        // console.log( prevState, this.state)
     }
     
     render () {
